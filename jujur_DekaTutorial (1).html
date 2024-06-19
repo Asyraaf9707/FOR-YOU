@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- 
+  Code Made By Deka Tutorial
+  Youtube: Deka Tutorial
+  Tiktok: @deka_tutorial
+  -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      div {width: 120px; margin: auto; display: flex; justify-content: space-between;}
+    </style>
+    <title>Just For You &#129505</title>
+  </head>
+  <body style="text-align: center">
+    <img src="/gambar/comel.gif" alt="plss" style="height: 280px" />
+    <h1>HI ALYA</h1>
+    <h2>Saya suka awak.</h2>
+    <h2>Awak suka saya tk?</h2>
+    <div>
+      <button onclick="mau()">SUKA</button>
+      <button onmouseover="gak(this)">TAK</button>
+    </div>
+    <script>
+      function mau() {
+        alert("Yeay!! Terima Kasih :)");
+        alert("hantar jawapanmya ke wassap");
+
+        location.assign("https://www.wasap.my/+601128312558?text=aku%suka%kau%><");
+      }
+      function gak(ini) {
+        ini.style.position = "absolute";
+        ini.style.left = `${Math.floor(Math.random() * 90)}%`;
+        ini.style.top = `${Math.floor(Math.random() * 90)}%`;
+      }
+    </script>
+  </body>
+</html>
